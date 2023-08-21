@@ -16,3 +16,9 @@ Install windows build tool chain when working on linux/mac
 ```
 brew install mingw-w64
 ```
+
+Install winres
+
+```
+go install github.com/tc-hib/go-winres@latest
+```

@@ -1,7 +1,5 @@
 package main
 
-//go:generate go-winres simply --icon assets/server.png --manifest gui
-
 import (
 	_ "embed"
 	"errors"
@@ -14,7 +12,7 @@ import (
 	"github.com/go-vgo/robotgo"
 )
 
-//go:embed assets/server.png
+//go:embed assets/server.ico
 var iconServer []byte
 
 func getRoot(w http.ResponseWriter, r *http.Request) {
