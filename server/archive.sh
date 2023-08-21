@@ -1,0 +1,1 @@
+compact /c server.zip *
